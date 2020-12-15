@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.crud.activities.MainActivity">
+    <item
+        android:id="@+id/action_alteracao_usuario"
+        android:icon="@drawable/ic_action_alterar"
+        android:orderInCategory="100"
+        android:title="Alteração de usuário"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cadastrar_usuario"
+        android:icon="@drawable/ic_action_cadastro"
+        android:title="Cadastrar usuário"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_deletar_usuario"
+        android:icon="@drawable/ic_action_excluir"
+        android:title="Deletar usuário" />
+    <item
+        android:id="@+id/action_listar_usuarios"
+        android:icon="@drawable/ic_action_listar"
+        android:title="Listar usuários" />
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/ic_action_login"
+        android:title="Login"
+        app:showAsAction="always" />
+</menu>
